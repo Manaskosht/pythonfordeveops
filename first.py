@@ -20,6 +20,6 @@ n1=char1
 char1=temp
 print(f"n1={n1} char1={char1}")
 #5
-cur_balance=10000
-dep_balance=5000
-after
+var1=float(1000)
+print(type(var1))
+print(var1)
