@@ -44,11 +44,29 @@
  #condtional statements;
  
 
+#identity operator
 #a="manas"
 #b=20
 #print (id(a))
 #print (id(b))
 #print(a is b)
 #print(a is not b)
+
+#num1=10
+#char2="sharma"
+#print(id(num1))
+#print(id(char2))
+#print(num1 is char2)
+#print(char2 is not num1)
+#print (char2 is char2)
+
+
+#conditional statements practice
+
+#num=56
+#if num:
+ #   print("true")
+#else:
+ #   print("false")
 
  
