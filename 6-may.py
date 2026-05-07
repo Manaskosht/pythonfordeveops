@@ -13,9 +13,9 @@
 #conditional statement
 #a=0
 #if a:
- #   print("true")
+#   print("true")
 #else:
- #   print("false")
+#   print("false")
 
 
 #a=True
@@ -35,13 +35,13 @@
 #num3=12
 #wap to find largest
 #if num1>=num2 and num1>=num3:
- #  print(num1)
+#  print(num1)
 #if num2>=num1 and num2>=num3:
- #  print(num2)
+#  print(num2)
 #if num3>=num1 and num3>=num2:
- #  print(num3)   
+#  print(num3)   
 
- #condtional statements;
+#condtional statements;
  
 
 #identity operator
@@ -65,8 +65,8 @@
 
 #num=56
 #if num:
- #   print("true")
+#   print("true")
 #else:
- #   print("false")
+    print("false")
 
  
