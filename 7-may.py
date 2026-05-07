@@ -4,8 +4,8 @@ if name:
     address=input("enter your address :")
     if address:
         print(f"My address is : {address}")
-        roll_number=int(input("enter your roll number :"))
-        if roll_number == 10:
+        roll_number=(input("enter your roll number :"))
+        if len(roll_number) == 10:
             print(f"My roll number is : {roll_number} ")
             pre_marks=int(input("enter your pre marks :"))
             if pre_marks>=500:
