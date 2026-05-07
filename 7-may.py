@@ -30,4 +30,27 @@
 #     print("name is not provided")
 
 
+#Ticket confirms
+
+name = input("Enter your name :")
+if name :
+    print(f"Passenger Name : {name}")
+    mob_num = (input("Enter your mob. number:"))
+    if len(mob_num) == 10:
+        print(f"Passenger Mobile Number : {mob_num}")
+        pnr_num = (input("Enter your PNR No.:"))
+        if len(pnr_num) == 9:
+            print(f"PNR Number : {pnr_num}")
+            seat_num = int(input("Enter your seat number :"))
+            if seat_num:
+                print("Ticket confirmed")
+            else:
+                print("Ticket not confirmed")
+        else:
+            print(f"PNR is wrong")
+    else:
+        print(f"Mobile number is not provided.")
+else:
+    print(f"Name is not provided")
+
 
