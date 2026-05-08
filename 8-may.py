@@ -9,19 +9,34 @@
 #for i in range(1,15,3):
  #print(i)
 
- #wap to takes start point and end point from user input and print all number divisible by 2 and 3
+ 
 
- #wap to take a number from user input and print formatted table.
+ 
  #format :
  #3*1=3
  #3*2=6
 
- #wap to take a number from user input and print reversed formated table.
+ 
 
-range_start = int(input("enter start point : "))
-range_end = int(input("enter end point : ")) 
-for i in range(range_start ,range_end):
-   if i % 2 == 0 and i % 3 == 0 :
-    print(i)
+#wap to takes start point and end point from user input and print all number divisible by 2 and 3
 
+# range_start = int(input("enter start point : "))
+# range_end = int(input("enter end point : ")) 
+# for i in range(range_start ,range_end):
+#    if i % 2 == 0 and i % 3 == 0 :
+#     print(i)
+
+
+#wap to take a number from user input and print formatted table.
+
+# num = int(input("Enter your number : "))
+# for i in range(1,11):
+#     print(f"{num} * {i} : {num * i}")
+
+
+#wap to take a number from user input and print reversed formated table.
+
+# num = int(input("Enter your number : "))
+# for i in range(10,0,-1):
+#     print(f"{num} * {i} : {num * i}")
 
